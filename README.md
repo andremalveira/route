@@ -11,7 +11,6 @@
 - - [query](#query)
 - - [group](#group)
 - - [path](#path)
-- [Typescript](#typescript)
 
 
 ## Install
@@ -101,8 +100,8 @@ query<'category' | 'type'>('/posts')
 ### group
 Creates a group of routes based on the options
 
-> - param_1: `Object(options)` | `{}`
-> - -  `prefix`: prefix for route path
+> - param_1: `Object(options)` | `{}` | null
+> - -  `prefix?`: prefix for route path
 > - -  `namespace?`: returns the routes inside a new object called 'namespace'
 > - -  `baseUrl?`: url base from path
 
@@ -166,4 +165,4 @@ path(string[], object) => string
 ```
 
 ## Licence 
-[MIT]()
+[MIT](LICENSE)
