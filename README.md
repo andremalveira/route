@@ -1,7 +1,8 @@
 
-# <p align="center">Client Api Route</p>
-### <p align="center">Helpers for working with API routes on the client</p>
+### <p align="center">Route</p>
+<p align="center">Helpers for creating route paths from the api to the client</p>
 
+<br/>
 
 ## Table of contents
 
